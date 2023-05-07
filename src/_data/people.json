@@ -1,17 +1,21 @@
 {
   "people": [
     {
-      "name": "hi",
+      "name": "Lam Chee Loong",
+      "position": "Consultant",
+
       "url": "there",
-      "unit": "i am the first"
+      "unit": "palliative"
     },
     {
-      "name": "sdsd",
+      "name": "Sheriza Izwa Zainuddin",
+      "position": "Consultant",
       "url": "sds",
-      "unit": "dssd"
+      "unit": "palliative"
     },
     {
       "name": "david",
+      "position": "Specialist",
       "url": "klklk",
       "unit": "palliative"
     },
