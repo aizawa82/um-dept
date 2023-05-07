@@ -1,6 +1,6 @@
 ---
 title: Interesting study finding
-intro: Amazing news from our dept
+intro: some intro text here
 ---
 
 # here is the second post

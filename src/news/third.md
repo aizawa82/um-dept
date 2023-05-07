@@ -1,6 +1,6 @@
 ---
 title: Some other news here
-intro: Amazing news from our dept
+intro: short summary here
 ---
 
 # here is the second post
