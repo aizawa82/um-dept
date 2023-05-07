@@ -1,5 +1,5 @@
 ---
-title: A true breakthrough
+title: Interesting study finding
 intro: Amazing news from our dept
 ---
 

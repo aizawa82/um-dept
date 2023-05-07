@@ -30,6 +30,8 @@ collections:
               - {label: Name, name: name, widget: string}
               - {label: URL, name: url, widget: string}
               - {label: Unit, name: unit, widget: string}
+              - {label: Position, name: position, widget: string}
+
 
 
 
@@ -51,6 +53,21 @@ collections:
         multiple: true
         create: true
         options: ["Tags", "created", "from", "config.yml"]
+  
+  
+  - label: "News"
+    name: "news"
+    folder: "src/news"
+    create: true
+    fields:
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Introduction", name: "intro", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
+
+
+
+
+  
   - label: "Settings"
     name: "settings"
     editor:

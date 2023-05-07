@@ -1,5 +1,5 @@
 ---
-title: Revolutionary finding
+title: Some other news here
 intro: Amazing news from our dept
 ---
 
