@@ -19,9 +19,11 @@
   <body>
     {% include "./partials/navbar.html" %}
 
-    {{ content | safe }}
+    <article class="prose  mx-auto max-w-screen-md px-4 md:px-8">
+  {{ content | safe }}
+</article>
 
-    {% include "./partials/footer.html" %}
+    {% include "./partials/footernew.html" %}
 
     <script src="/static/js/alpine.js"></script>
 

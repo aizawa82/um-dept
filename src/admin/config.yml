@@ -12,6 +12,27 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
+  - name: "data"
+    label: "Data"
+    format: json
+    preview: true
+    create: true
+    files:
+      - label: "people"
+        name: "people"
+        file: "src/_data/people.json"
+        fields:
+          - label: People
+            name: people
+            widget: list
+            collapsed: false
+            fields:
+              - {label: Name, name: name, widget: string}
+              - {label: URL, name: url, widget: string}
+              - {label: Unit, name: unit, widget: string}
+
+
+
   - label: "Blog"
     name: "blog"
     folder: "src/posts"
