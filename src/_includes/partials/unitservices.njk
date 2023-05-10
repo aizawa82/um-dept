@@ -1,0 +1,22 @@
+{% macro unitservices(services) %}
+
+
+<section class="body-font text-gray-600">
+  <div class="container mx-auto px-5 py-24">
+    <div class="mb-20 flex w-full flex-col text-center">
+      <h1 class="title-font mb-4 text-2xl font-medium text-gray-900 sm:text-3xl">Services</h1>
+      <p class="mx-auto text-base leading-relaxed lg:w-2/3">The unit runs the following services.</p>
+    </div>
+
+    <div class="flex flex-wrap">
+
+      {% for service in services %}
+      <div class="border-l-2 border-gray-200 border-opacity-60 px-8 py-2 md:w-full lg:w-1/2 xl:w-1/4">
+        <h2 class="title-font mb-2 text-lg font-medium text-gray-900 sm:text-xl">{{ service }}</h2>
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+{% endmacro %}

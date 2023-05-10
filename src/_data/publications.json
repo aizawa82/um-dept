@@ -1,0 +1,34 @@
+{
+  "Infectious Disease": [
+    {
+      "title": "The presence of Nipah virus in respiratory secretions and urine of patients during an outbreak of Nipah virus encephalitis in Malaysia",
+      "authors": "Arends S, Drenthen J, van den Bergh P, Franssen H, Hadden RDM, Islam B, Kuwabara S, Reisin RC, Shahrizaila N, Amino H, Antonini G, Attarian S, Balducci C, Barroso F, Bertorini T, Binda D, Brannagan TH, Buermann J, Casasnovas C, Cavaletti G, Chao CC, Dimachkie MM, Fulgenzi EA, Galassi G, Gutiérrez Gutiérrez G, Harbo T, Hartung HP, Hsieh ST, Kiers L, Lehmann HC, Manganelli F, Marfia GA, Mataluni G, Pardo J, Péréon Y, Rajabally YA, Santoro L, Sekiguchi Y, Stein B, Stettner M, Uncini A, Verboon C, Verhamme C, Vytopil M, Waheed W, Wang M, Zivkovic S, Jacobs BC, Cornblath DR; IGOS consortium",
+      "journal": "Clin Neurophysiol. 2022 Jun;138:231-240.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11243752/"},
+
+    {
+      "title": "Prevention of transmission of HIV, hepatitis B virus, hepatitis C virus, and tuberculosis in prisoners",
+      "authors": "Kamarulzaman A, Reid SE, Schwitters A, Wiessing L, El-Bassel N, Dolan K, Moazen B, Wirtz AL, Verster A, Altice FL.",
+      "journal": "Lancet. 2016 Sep 10;388(10049):1115-1126.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27427456/"
+    }
+
+  ],
+
+  "Palliative Care": [
+    {
+      "title": "The presence of Nipah virus in respiratory secretions and urine of patients during an outbreak of Nipah virus encephalitis in Malaysia",
+      "authors": "Arends S, Drenthen J, van den Bergh P, Franssen H, Hadden RDM, Islam B, Kuwabara S, Reisin RC, Shahrizaila N, Amino H, Antonini G, Attarian S, Balducci C, Barroso F, Bertorini T, Binda D, Brannagan TH, Buermann J, Casasnovas C, Cavaletti G, Chao CC, Dimachkie MM, Fulgenzi EA, Galassi G, Gutiérrez Gutiérrez G, Harbo T, Hartung HP, Hsieh ST, Kiers L, Lehmann HC, Manganelli F, Marfia GA, Mataluni G, Pardo J, Péréon Y, Rajabally YA, Santoro L, Sekiguchi Y, Stein B, Stettner M, Uncini A, Verboon C, Verhamme C, Vytopil M, Waheed W, Wang M, Zivkovic S, Jacobs BC, Cornblath DR; IGOS consortium",
+      "journal": "Clin Neurophysiol. 2022 Jun;138:231-240.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/11243752/"},
+
+    {
+      "title": "Prevention of transmission of HIV, hepatitis B virus, hepatitis C virus, and tuberculosis in prisoners",
+      "authors": "Kamarulzaman A, Reid SE, Schwitters A, Wiessing L, El-Bassel N, Dolan K, Moazen B, Wirtz AL, Verster A, Altice FL.",
+      "journal": "Lancet. 2016 Sep 10;388(10049):1115-1126.",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/27427456/"
+    }
+
+  ]
+
+}
