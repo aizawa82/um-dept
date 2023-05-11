@@ -2,18 +2,19 @@
 {% include "../src/_includes/partials/nav.njk" %}
 
 
-<section class="body-font text-gray-600">
+<section class="bg-gray-100 body-font text-gray-600">
   <div class="container mx-auto px-5 py-24">
-    <div class="-m-4 flex flex-wrap">
+    <div class=" flex flex-wrap">
     {% for news in collections.news %}
+      {% if (loop.index <= 3) %}
       <div class="p-4 md:w-1/3 flex-grow">
         <div class="h-full overflow-hidden rounded-lg border-2 border-gray-200 border-opacity-60">
           <img class="w-full object-cover object-center md:h-36 lg:h-48" src="https://source.unsplash.com/random/?medicine,research" />
           <div class="p-6">
-            <h1 class="title-font mb-3 text-lg font-semibold text-gray-900">{{ news.data.title }}</h1>
-            <p class="mb-3 leading-relaxed"> {{ news.data.intro }}</p>
+            <h1 class="title-font text-lg font-semibold text-gray-900 mb-3">{{ news.data.title }}</h1>
+            <p class="mb-3  leading-relaxed text-base/6  "> {{ news.data.intro }}</p>
             <div class="flex flex-wrap items-center">
-              <a class="inline-flex items-center text-indigo-500 md:mb-2 lg:mb-0"
+              <a class="inline-flex items-center text-{{ settings.accentcolor }} md:mb-2 lg:mb-0"
                 >Learn More
                 <svg class="ml-2 h-4 w-4" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
                   <path d="M5 12h14"></path>
@@ -30,10 +31,14 @@ May 14
           </div>
         </div>
       </div>
+      {% endif %}
       {% endfor %}
     </div>
   </div>
 </section>
+
+{% include "./_includes/partials/about.njk" %}
+
 
 {% include "./_includes/partials/units.njk" %}
 

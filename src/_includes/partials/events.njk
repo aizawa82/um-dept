@@ -10,7 +10,7 @@
  <div class="flex flex-wrap py-8 md:flex-nowrap">
         <div class="mb-6 flex flex-shrink-0 flex-col md:mb-0 md:w-64">
           <span class="title-font font-semibold text-gray-700">{{ event.data.category }}</span>
-          <span class="text-sm text-gray-500">{{ event.data.date }}</span>
+          <span class="text-sm text-gray-500">{{ event.data.date | readableDate}}</span>
         </div>
         <div class="md:flex-grow">
           <h2 class="title-font mb-2 text-2xl font-medium text-gray-900">{{ event.data.title }}</h2>
