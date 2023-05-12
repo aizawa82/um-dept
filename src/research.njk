@@ -1,7 +1,7 @@
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
 
 {% include "../src/_includes/partials/nav.njk" %}
-
-
 
 <div class="w-full bg-center bg-cover" style="background-image: url(/static/img/units/fluorescence.jpg);">
 <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
@@ -16,9 +16,57 @@
 </div>
 
 
-{% include "./_includes/partials/about.njk" %}
+  <div class="grid grid-cols-1 md:grid-cols-5 gap-8 p-8 max-w-4xl mx-auto">
 
-{% include "./_includes/partials/events.njk" %}
+    <div  class="col-span-5 md:col-span-1 content-start">
+    <div class="bg-gray-200 p-2">
+      <ul>
+        <li class=" p-2"><a href="#units">Overview</a></li>
+        <li class=" p-2"><a href="#staff">Research Coordinating Team</a></li>
+        <li class="p-2">Publications</li>
+      </ul>
+    </div>
+    </div>
+
+
+    <div class="col-span-4 md:col-span-3 max-w-prose">
+  
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Research at the Department of Medicine
+
+A few sentences in general about research at UM. A few sentences in general about research at UM.A few sentences in general about research at UM.A few sentences in general about research at UM.A few sentences in general about research at UM.A few sentences in general about research at UM.A few sentences in general about research at UM.
+
+- Niche area so and so
+- Niche area so and so
+- Niche area so and so
+- Niche area so and so
+- Niche area so and so
+
+And some more text here
+
+
+{% endrenderTemplate %}
+</article>
+
+  </div>
+      <div  class="col-span-5 md:col-span-1 content-start">
+    <div class=" p-2">
+      <ul>
+        <li class=" p-2 border-b-2"><a href="#units">Ceria</a></li>
+        <li class=" p-2 border-b-2"><a href="#units">Clinical Investigation Centre</a></li>
+        <li class=" p-2 border-b-2"><a href="#units">Some other centre here</a></li>
+        <li class=" p-2 border-b-2"><a href="#units">LInk to another research group</a></li>
+        <li class=" p-2 border-b-2"><a href="#units">ACT4Health</a></li>
+      </ul>
+    </div>
+    </div>
+  </div>
+
+  {{ unitstaff(people, "Infectious Disease") }}
+
+   
+   
 
 {% include "./_includes/partials/footer.njk" %}
 

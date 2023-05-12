@@ -2,7 +2,6 @@
     <div  class="col-span-4 md:col-span-1 content-start">
     <div class="bg-gray-200 p-2">
       <ul>
-        <li class="bg-gray-800 text-white p-2">Overview</li>
         <li class=" p-2"><a href="#units">Units</a></li>
         <li class=" p-2"><a href="#staff">Department Staff</a></li>
 
@@ -13,15 +12,22 @@
     </div>
     </div>
     <div class="col-span-4 md:col-span-3 max-w-prose">
-      <h1 class="text-3xl font-bold">Department of Medicine</h1>
 
-<p>The Department of Medicine is the largest Department in the Faculty of Medicine, comprising all the sub-specialties within the field of Internal Medicine. It offers excellent opportunities for both undergraduate and postgraduate training as well as fellowship attachments. It is committed to research and development and subscribes to the vision and mission of the University.</p>
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Welcome to the Department of Medicine
 
-<p>The Vision of the Department is to become an institution of excellence that provides leadership in the activities of education, training, research, new development, spread, and the provision of service in the domain of general medicine and all the specialties associated with it.</p>
+The Department of Medicine is the largest Department in the Faculty of Medicine, comprising all the sub-specialties within the field of Internal Medicine. It offers excellent opportunities for both undergraduate and postgraduate training as well as fellowship attachments. It is committed to research and development and subscribes to the vision and mission of the University.
 
-<p>The Department views its mission at the undergraduate level as being charged with the responsibility, via the medical undergraduate instructional program, of preparing the potential graduate to take up duties in the provision of medical care to the community throughout the nation and to be able to operate within the national health care service system effectively and efficiently.</p>
+The Vision of the Department is to become an institution of excellence that provides leadership in the activities of education, training, research, new development, spread, and the provision of service in the domain of general medicine and all the specialties associated with it.
 
-<p>The Department views its mission at the postgraduate level, via its postgraduate medical training program (Masters in Internal Medicine), to produce a physician who may be considered as a professional and a specialist in the domain of General Medicine as well as in a particular chosen specialty within it.</p>
+The Department views its mission at the undergraduate level as being charged with the responsibility, via the medical undergraduate instructional program, of preparing the potential graduate to take up duties in the provision of medical care to the community throughout the nation and to be able to operate within the national health care service system effectively and efficiently.
+
+The Department views its mission at the postgraduate level, via its postgraduate medical training program (Masters in Internal Medicine), to produce a physician who may be considered as a professional and a specialist in the domain of General Medicine as well as in a particular chosen specialty within it.
+
+{% endrenderTemplate %}
+</article>
+
 
 
       <h2 class=" font-semibold text-2xl pt-10" id="units">Units</h2>
