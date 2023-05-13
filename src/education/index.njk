@@ -1,0 +1,51 @@
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{% include "partials/nav.njk" %}
+
+<div class="w-full bg-center bg-cover" style="background-image: url(/static/img/units/education.jpg);">
+<div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+  <div class="text-center">
+    <div class="container px-4 mx-auto">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">Education</h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <div class="grid grid-cols-1 md:grid-cols-4 gap-8 p-8  mx-auto">
+
+
+
+    <div class="col-span-4 md:col-span-3 max-w-prose">
+  
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Education at the Department of Medicine
+
+The department of medicine offers three academic programess at the undergraduate, postgraduate clinical and postgraduate research levels. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque tempora quia quis assumenda natus eaque dolor suscipit est necessitatibus quidem deleniti molestias rerum dolorum, incidunt quibusdam! Repudiandae nostrum aliquam quo!
+
+{% endrenderTemplate %}
+</article>
+
+  </div>
+      <div  class="col-span-4 md:col-span-1 content-start">
+    <div class=" p-2">
+      <ul>
+        <li class=" p-2 border-b-2"><a href="/education/mbbs">Bachelor of Medicine, Bachelor of Surgery (MBBS)</a></li>
+        <li class=" p-2 border-b-2"><a href="/education/mintmed">Master in Internal Medicine (MIntMed)</a></li>
+        <li class=" p-2 border-b-2"><a href="/education/mmedsc">Master of Medical Sciences (MMedSc)</a></li>
+        <li class=" p-2 border-b-2"><a href="#units">Doctor of Philosophy (PhD)</a></li>
+
+      </ul>
+    </div>
+    </div>
+  </div>
+   
+   
+
+{% include "partials/footer.njk" %}
+

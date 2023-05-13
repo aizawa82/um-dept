@@ -1,0 +1,82 @@
+{% include "partials/nav.njk" %}
+
+<div class="w-full bg-center bg-cover" style="background-image: url(/static/img/units/education.jpg);">
+  <div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+  <div class="text-center">
+    <div class="container px-4 mx-auto">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">Education</h2>
+      </div>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-8 p-8  mx-auto">
+  <div class="col-span-4 md:col-span-3 max-w-prose">
+  
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Master in Internal Medicine (MIntMed)
+
+Some intro text here about the programme in general etc...
+
+## Programme structure
+
+### Stage I (first year)
+
+- the study of basic sciences relevant to the practice of internal medicine and
+- clinical clerkship under supervision with emphasis on emergency medicine
+
+### Stage II (second and third year)
+
+- rotations of three months each in the following discplines of clinical medicine   
+  - Cardiology
+  - Nephrology
+  - Neurology
+  - Respiratory Medicine
+  - Gastroenterology and Hepatology
+  - Haematology and Oncology
+  - Endocrinology
+  - Rheumatology
+  - Infectious Disease
+  - Dermatology
+
+### Stage III (fourth year)
+
+This stage includes a posting in approved sub-specialty or in general medicine in the Faculty
+of medicine or a recognised centre outside the faculty.
+{% endrenderTemplate %}
+</article>
+
+  </div>
+
+
+      <div  class="col-span-4 md:col-span-1 content-start">
+        <div class="p-2">
+          <ul>
+            <li class=" p-2 border-b-2"><a href="https://medicine.um.edu.my/master-of-internal-medicine-mlntmed">Programme Information (Faculty site)</a></li>
+            <li class=" p-2 border-b-2"><a href="/contact">Contact to apply</a></li>
+          </ul>
+        </div>
+          <div class="mt-8 p-4 bg-gray-200">
+              <h2 class="font-semibold">Department of Medicine Contact:</h2>
+              <p class="my-0">Mdm Noor Aida Muhamad</p>
+              <p class="my-0">Administrator</p>
+              <p class="my-0">Mdm Noor Aida Muhamad</p>
+              <p class="my-0">Tel: +60379672868</p>
+              <p class="my-0">email: <a class="decoration-sky-500" href="mailto:aida_med@ummc.edu.my">aida_med@ummc.edu.my</a></p>
+          </div>
+          <div class="mt-8 p-4 bg-gray-200">
+              <h2 class="font-semibold">Faculty of Medicine Contact:</h2>
+              <p class="my-0">Siti Noor Muhaiyah Zamari</p>
+              <p class="my-0">email: <a class="decoration-sky-500" href="mailto:aida_med@ummc.edu.my">maya@um.edu.my</a></p>
+          </div>
+      </div>
+
+
+
+</div>
+{% include "partials/footer.njk" %}
+

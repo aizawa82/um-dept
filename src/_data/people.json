@@ -1,6 +1,57 @@
 {
   "people": [
     {
+      "name": "Cik Mariah Din",
+      "position": "Consultant",
+      "url": "",
+      "unit": "Department",
+      "image": "image137.png"
+
+    },
+
+    {
+      "name": "Cik Mariah Din",
+      "position": "Consultant",
+      "url": "",
+      "unit": "Department",
+      "image": "image137.png"
+
+    },
+    {
+      "name": "Cik Mariah Din",
+      "position": "Consultant",
+      "url": "",
+      "unit": "Department",
+      "image": "image137.png"
+
+    },
+    {
+      "name": "Cik Mariah Din",
+      "position": "Consultant",
+      "url": "",
+      "unit": "Department",
+      "image": "image137.png"
+
+    },
+
+    {
+      "name": "Cik Mariah Din",
+      "position": "Consultant",
+      "url": "",
+      "unit": "Department",
+      "image": "image137.png"
+
+    },
+
+
+
+
+
+
+
+
+
+    {
       "name": "Dr. Lam Chee Loong",
       "position": "Consultant",
       "url": "",
@@ -94,6 +145,7 @@
       "name": "Assoc. Prof. Dr. Sharifah Faridah",
       "position": "Consultant/Lecturer",
       "url": "",
+      "interests": "Dengue, tropical diseases, COVID-19, HIV medicine, HIV/HCV coinfection, HIV prevention and harm reduction, antimicrobial stewardship, infection control and prevention",
       "unit": "Infectious Disease",
       "image": "image32.png",
       "umexpert": "",
@@ -105,6 +157,7 @@
       "name": "Assoc. Prof. Dr. Raja Iskandar Shah Raja Azwa",
       "position": "Consultant/Lecturer",
       "url": "",
+      "interests": "HIV, HIV pre-exposure prophylxis (PrEP), HIV resistance, stigma and discrimination, sexual health, HIV/HBV/HCV coinfection, tuberculosis",
       "unit": "Infectious Disease",
       "image": "image120.png",
       "umexpert": "",
@@ -116,6 +169,7 @@
       "name": "Dr. Bushra Megat Johari",
       "position": "Specialist",
       "url": "",
+      "interests": "Tuberculosis, COVID-19",
       "unit": "Infectious Disease",
       "image": "image125.png",
       "umexpert": "",
@@ -138,6 +192,7 @@
       "name": "Dr. Ong Hang Cheng",
       "position": "Specialist",
       "url": "",
+      "interests": "HIV/AIDS, HIV Medicine and Resistance, HIV Opportunistic Infection, COVID-19, Antibacterial Stewardship, Infection Prevention and Control, Tropical medicine",
       "unit": "Infectious Disease",
       "image": "image126.png",
       "umexpert": "",
@@ -149,6 +204,7 @@
       "name": "Assoc. Prof. Dr. Sasheela Sri La Sri Ponnampalavanar",
       "position": "Consultant/Lecturer",
       "url": "",
+      "interests": " Infection Prevention and Control, Antimicrobial Stewardship, Hospital Acquired Infections infection, ICU infection, Multidrug resistant organisms, Travel medicine, Tropical medicine, Emerging infectious diseases,  HIV",
       "unit": "Infectious Disease",
       "image": "image122.png",
       "umexpert": "",
@@ -160,6 +216,7 @@
       "name": "Dr. Ng Rong Xiang",
       "position": "Specialist",
       "url": "",
+      "interests": " HIV/AIDS, HIV Prevention and Behavioral Epidemiology,  Combined Effects of Multiple Psychosocial Epidemics, or “Syndemics” in Driving HIV Risk, HIV Medicine and Resistance, HIV Co-morbidity and Opportunistic Infection, HIV transplant Medicine, COVID-19, New Antibacterial/Antiviral agents & Stewardship & Surgical Prophylaxis, Infection Prevention Control, Staphylococcus aureus, Whole Genome Sequencing",
       "unit": "Infectious Disease",
       "image": "image127.png",
       "umexpert": "",
@@ -172,6 +229,7 @@
       "name": "Helmi Sulaiman",
       "position": "Consultant/Lecturer",
       "url": "there",
+      "interests": "Antibiotic Pharmacokinetics and Pharmacodynamics, Multidrug-resistant organisms, Gram-negative bacteria, Staphylococcus aureus bacteremia, Antimicrobial stewardship, ICU infections, Pneumonia.",
       "unit": "Infectious Disease",
       "image": "image123.png",
       "umexpert": "https://umexpert.um.edu.my/helmi_s",
@@ -184,8 +242,21 @@
       "name": "Dr. Anjanna Kukreja",
       "position": "Specialist",
       "url": "",
+      "interests": "HIV Medicine, Women & HIV, HIV Aging, HIV Stigma & Discrimination, Tropical Medicine, Antimicrobial Stewardship, Infection Prevention and Control",
       "unit": "Infectious Disease",
       "image": "image128.png",
+      "umexpert": "",
+      "twitter": "",
+      "homepage": ""
+    },
+
+    {
+      "name": "Dr. Sazali Basri",
+      "position": "Specialist",
+      "url": "",
+      "interests": "HIV, PrEP, STIs, Antimicrobial stewardship",
+      "unit": "Infectious Disease",
+      "image": "sazali.png",
       "umexpert": "",
       "twitter": "",
       "homepage": ""
@@ -195,6 +266,7 @@
       "name": "Dr. Wong Pui Li",
       "position": "Consultant/Lecturer",
       "url": "",
+      "interests": "HIV and Ageing, Stigma and Discrimination amongst Key Populations and People Living with HIV",
       "unit": "Infectious Disease",
       "image": "image124.png",
       "umexpert": "",

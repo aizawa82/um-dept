@@ -1,40 +1,40 @@
 ---
-layout: default.njk
-head: "Dr Sharifah"
-unit: "Infectious Disease"
-intro: "Here will be some intro text that introduces the unit, infectious disease in this case"
-titleimage: "https://images.unsplash.com/photo-1579781354171-45f67f0d8f18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-services:
-    - EEG
-    - Laboratory
+layout: "triplecolumn"
+
+title: Infectious Disease Team
+
+unit: Infectious Disease
+
+navitems:
+    - label:  Overview
+      url:   /units/infectiousdisease
+    - label:  Team
+      url:   /units/infectiousdisease/team
+    - label:  Publications
+      url:   /units/infectiousdisease/publications
+    - label:  Research
+      url:   /units/infectiousdisease/research
+
+linkitems:
+    - label:  Some relevant links here
+      url:   /units/infectiousdisease
+    - label:  UMMC Antibiotic guideline
+      url:   /units/infectiousdisease/team
+
+titleimage: "/static/img/units/id.jpg"
 ---
-{% from 'partials/unitintro.njk' import unitintro %}
-{% from 'partials/unitstaff.njk' import unitstaff %}
-{% from 'partials/unitservices.njk' import unitservices %}
-{% from 'partials/unitpublications.njk' import unitpublications %}
 
-<!-- Introduction -->
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Infectious Disease Unit
+<figure class="relative float-right">
+  <img alt="HOD" class="hidden md:inline m-4 h-56 w-48 sm:mb-0" src="/static/img/portraits/image32.png"/>
+            <figcaption class=" hidden md:inline px-4 py-4 text-center text-sm font-base"><p>Assoc. Prof. Dr. Sharifah Faridah<p><p>Head of Unit</p></figcaption>
+  </figure>
 
-{{ unitintro(unit, head, intro, titleimage) }}
+The Infectious Diseases Unit at the University of Malaya Medical Centre provides care for patients with infections ranging from complicated infections and tropical infections to undifferentiated fever, people living with HIV, and key affected populations. 
+We also have an antimicrobial stewardship team that works together closely with our pharmacists and microbiologists to help ensure the appropriate use of antibiotics within the hospital. The team believes in practicing evidence-based medicine and is active 
+in research covering dengue infections, multidrug-resistant bacteria, antimicrobial resistance, pharmacokinetics and pharmacodynamics of antibiotics, Tuberculosis, COVID-19, and HIV (prevention, aging, mental health, women’s health, and stigma). 
 
-<!-- Introduction end -->
-
-
-
-<!-- Services -->
-
-{{ unitservices(services) }}
-
-<!-- Services end -->
-
-<!-- Staff -->
-
-{{ unitstaff(people, unit) }}
-
-<!-- Staff end -->
-
-<!-- Publications -->
-
-{{ unitpublications(unit, publications) }}
-
-<!-- Publications end -->
+{% endrenderTemplate %}
+</article>

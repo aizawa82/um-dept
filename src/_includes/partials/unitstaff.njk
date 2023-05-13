@@ -1,10 +1,9 @@
 {% macro unitstaff(people, unit) %}
 
-<section class="body-font text-gray-600">
-  <div class="container mx-auto px-5 py-24">
+<section class="body-font text-gray-600 max-w-4xl mx-auto">
+  <div class="container mx-auto px-5 py-4">
     <div class="mb-20 flex w-full flex-col text-center">
-      <h1 class="title-font mb-4 text-2xl font-medium tracking-widest text-gray-900">Faculty</h1>
-      <p class="mx-auto text-base leading-relaxed lg:w-2/3">Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them.</p>
+      <h1 class="title-font mb-4 text-2xl font-bold tracking-widest text-gray-900">{{ unit }} Team</h1>
     </div>
     <div class="-m-4 flex flex-wrap">
 
@@ -14,11 +13,13 @@
 
  <div class="p-4 lg:w-1/2">
         <div class="flex h-full flex-col items-center justify-center text-center sm:flex-row sm:justify-start sm:text-left">
-          <img alt="{{ person.image }}" class="grayscale mb-4 h-48 w-48 flex-shrink-0 rounded-lg object-fit object-center sm:mb-0" src="/static/img/portraits/{{ person.image }}"/>
+          <img alt="{{ person.image }}" class="mb-4 h-48 w-48 flex-shrink-0 rounded-full object-fit object-center sm:mb-0" src="/static/img/portraits/{{ person.image }}"/>
           <div class="flex-grow sm:pl-8">
-            <h2 class="title-font text-lg font-medium text-gray-900">{{ person.position }}</h2>
-            <h3 class="mb-3 text-gray-500"> {{ person.name }}</h3>
-            <p class="mb-4">DIY tote bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+            <h2 class="title-font text-lg font-medium text-gray-900">{{ person.name }}</h2>
+            <h3 class="mb-3 text-gray-500"> {{ person.position }}</h3>
+            {% if person.interests %}
+            <p class="mb-4"><span class="font-semibold">Interests:</span> {{ person.interests }}</p>
+            {% endif %}
             <span class="inline-flex">
               <a class="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-5 w-5" viewBox="0 0 24 24">

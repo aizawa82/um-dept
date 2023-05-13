@@ -1,0 +1,55 @@
+---
+layout: "default"
+---
+
+{% if titleimage %}
+
+<div class="w-full bg-center bg-cover" style="background-image: url({{ titleimage }})">
+<div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
+  <div class="text-center">
+    <div class="container px-4 mx-auto">
+      <div class="max-w-4xl mx-auto text-center">
+        <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">{{ unit }}</h2>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+{% endif %}
+
+
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 p-8">
+    <div  class="col-span-4 md:col-span-1 content-start">
+    <div class="bg-gray-200 p-2">
+      <ul>
+        {% for item in navitems %}
+        <li class="p-2"><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+
+    
+    <div class="col-span-4 md:col-span-2">
+
+ {{ content | safe }}
+      
+  </div>
+{%if linkitems%}
+    <div class="col-span-4 md:col-span-1 max-w-prose ">
+      <div  class="col-span-5 md:col-span-1 content-start">
+    <div class=" p-2">
+      <ul>
+        {% for item in linkitems %}
+        <li class=" p-2 border-b-2"><a href="{{ item.url }}">{{ item.label }}</a></li>
+        {% endfor %}
+      </ul>
+    </div>
+    </div>
+    </div>
+    {% endif %}
+  </div>
+
+
+

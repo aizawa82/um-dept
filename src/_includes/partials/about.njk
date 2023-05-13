@@ -1,22 +1,28 @@
+{% from 'partials/unitstaff.njk' import unitstaff %}
+  
+
   <div class="grid grid-cols-1 md:grid-cols-4 gap-12 p-8">
     <div  class="col-span-4 md:col-span-1 content-start">
     <div class="bg-gray-200 p-2">
       <ul>
-        <li class=" p-2"><a href="#units">Units</a></li>
-        <li class=" p-2"><a href="#staff">Department Staff</a></li>
-
-        <li class="p-2">Research</li>
-        <li class=" p-2">For Patients</li>
-        <li class=" p-2">For Medical Professionals</li>
+        <li class="p-2"><a href="#staff">Department Staff</a></li>
+        <li class="p-2"><a href="/research">Research</li>
+        <li class="p-2"><a href="/education">Education</li>
+        <li class="p-2"><a href="#events">Events</li>
       </ul>
     </div>
     </div>
-    <div class="col-span-4 md:col-span-3 max-w-prose">
+
+    
+    <div class="col-span-4 md:col-span-2 max-w-prose">
 
 <article class="prose lg:prose-md">
 {% renderTemplate "md" %}
 # Welcome to the Department of Medicine
-
+<figure class="relative float-right">
+  <img alt="HOD" class="hidden md:inline m-4 h-56 w-48 sm:mb-0" src="/static/img/portraits/image17.png"/>
+            <figcaption class=" hidden md:inline px-4 py-4 text-center text-sm font-base"><p>Prof. Dr. Ida Normiha Hilmi<p><p>Head of Department</p></figcaption>
+  </figure>
 The Department of Medicine is the largest Department in the Faculty of Medicine, comprising all the sub-specialties within the field of Internal Medicine. It offers excellent opportunities for both undergraduate and postgraduate training as well as fellowship attachments. It is committed to research and development and subscribes to the vision and mission of the University.
 
 The Vision of the Department is to become an institution of excellence that provides leadership in the activities of education, training, research, new development, spread, and the provision of service in the domain of general medicine and all the specialties associated with it.
@@ -27,58 +33,33 @@ The Department views its mission at the postgraduate level, via its postgraduate
 
 {% endrenderTemplate %}
 </article>
-
-
-
-      <h2 class=" font-semibold text-2xl pt-10" id="units">Units</h2>
-      <nav class="-mb-1 flex list-none flex-wrap">
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/infectiousdisease">Infectious Disease</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/endocrinology">Endocrinology</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/hematology">Hematology</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/neurology">Neurology</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/dermatology">Dermatology</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/rheumatology">Rheumatology</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/nephrology">Nephrology</a>
-        </li>
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/generalmedicine">General Medicine</a>
-        </li>
-
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/geriatrics">Geriatrics</a>
-        </li>
-
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/palliative">Palliative care</a>
-        </li>
-
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/cardiology">Cardiology</a>
-        </li>
-
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/pulmonology">Pulmonology</a>
-        </li>
-
-        <li class="mb-1 w-1/2 lg:w-1/3">
-          <a class="text-gray-600 hover:text-gray-800" href="/units/gastroenterology">Gastroenterology and Hepatology</a>
-        </li>
-      </nav>
+      
   </div>
+
+    <div class="col-span-4 md:col-span-1 max-w-prose ">
+      <div  class="col-span-5 md:col-span-1 content-start">
+    <div class=" p-2">
+      <ul>
+        <li class=" p-2 border-b-2"><a href="/units/cardiology">Cardiology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/dermatology">Dermatology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/endocrinology">Endocrinology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/geriatrics">Geriatric Medicine</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/gastroenterology">Gastroenterology and Hepatology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/hematology">Haematology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/infectiousdisease">Infectious Disease</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/medicaladmission">Medical Admission</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/nephrology">Nephrology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/neurology">Neurology</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/palliative">Palliative care</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/respiratory">Respiratory Medicine</a></li>
+        <li class=" p-2 border-b-2"><a href="/units/rheumatology">Rheumatology</a></li>
+      </ul>
+    </div>
+    </div>
+    </div>
   </div>
+
+
    
    
 

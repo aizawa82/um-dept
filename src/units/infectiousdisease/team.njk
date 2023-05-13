@@ -1,0 +1,28 @@
+---
+layout: "sidebar"
+
+title: Infectious Disease Team
+
+unit: Infectious Disease
+
+navitems:
+    - label:  Overview
+      url:   /units/infectiousdisease
+    - label:  Team
+      url:   /units/infectiousdisease/team
+    - label:  Publications
+      url:   /units/infectiousdisease/publications
+    - label:  Research
+      url:   /units/infectiousdisease/research
+    - label:  Grants
+      url:   /units/infectiousdisease/grants
+
+
+titleimage: "/static/img/units/id.jpg"
+---
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+
