@@ -1,0 +1,26 @@
+---
+layout: "sidebar"
+
+title: Department of Medicine
+
+unit: Department
+
+navitems:
+    - label:  Department Staff
+      url:   /staff
+    - label:  Research
+      url:   /research
+    - label:  Education
+      url:   /education
+    - label:  Events
+      url:   /events
+
+titleimage: "/static/img/units/id.jpg"
+
+---
+
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}

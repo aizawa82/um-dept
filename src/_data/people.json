@@ -1,6 +1,345 @@
 {
   "people": [
 
+    {
+      "name": "Prof. Dr. Sanjiv Mahadeva",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image27.png"
+
+    },
+
+    {
+      "name": "Prof. Dr. Ida Normiha Hilmi",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image17.png"
+
+    },
+
+    {
+      "name": "Prof. Dr. Chan Wah Keong",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image68.png"
+
+    },
+
+    {
+      "name": "Assoc. Prof. Dr Ho Shiaw Hooi",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image67.png"
+
+    },
+
+    {
+      "name": "Dr. Chuah Kee Huat",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image69.png"
+
+    },
+
+    {
+      "name": "Dr. Ruveena Bhavani Rajaram",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image70.png"
+
+    },
+
+    {
+      "name": "Dr. Stanley Khoo",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": "image71.png"
+
+    },
+
+    {
+      "name": "Dr. Shahreedhan Shahrani",
+      "position": "Specialist",
+      "url": "",
+      "interests": "",
+      "unit": "Gastroenterology and Hepatology",
+      "image": ""
+
+    },
+
+
+    {
+      "name": "Prof. Dr. Imran Zainal Abidin",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image28.png"
+
+    },
+
+    {
+      "name": "Prof. Dr. Chee Kok Han",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image72.png"
+
+    },
+
+    {
+      "name": "Assoc. Prof. Dr. Alexander Lock",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image73.png"
+
+    },
+
+    {
+      "name": "Dr. Nor Ashikin binti Md Sari",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image74.png"
+
+    },
+
+    {
+      "name": "Assoc. Prof. Dr. Ahmad Syadi bin Mahmood Zuhdi",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image75.png"
+
+    },
+
+    {
+      "name": "Dato' Prof. Dr. Wan Azman bin Wan Ahmad",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image76.png"
+
+    },
+
+    {
+      "name": "Dr. Ramesh Singh",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": "image77.png"
+
+    },
+
+    {
+      "name": "Dr. Samshol Sukahri",
+      "position": "Specialist",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": ""
+
+    },
+
+    {
+      "name": "Dr. Nursyuhada binti Khairul Anuar",
+      "position": "Specialist",
+      "url": "",
+      "interests": "",
+      "unit": "Cardiology",
+      "image": ""
+
+    },
+
+  
+
+
+
+
+    {
+      "name": "Prof. Dr.Ida Normiha Hilmi",
+      "position": "Head of Department",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image17.png"
+
+    },
+
+    {
+      "name": "Pn. Noor Aida Muhamad",
+      "position": "Administrative Assistant (N22)",
+      "section": "Perkhidmatan Sokongan (UM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image19.png"
+
+    },
+
+    {
+      "name": "Pn. Mazziati Omar",
+      "position": "Administrative Assistant (N19)",
+      "section": "Perkhidmatan Sokongan (UM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image20.png"
+
+    },
+
+    {
+      "name": "Pn. Nurzamilla Kachi Maiden",
+      "position": "Administrative Assistant (N19)",
+      "section": "Perkhidmatan Sokongan (UM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image35.png"
+
+    },
+
+    {
+      "name": "Pn. Nor Alwani Ibrahim",
+      "position": "Administrative Assistant (N22)",
+      "section": "Perkhidmatan Sokongan (UM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image16.png"
+
+    },
+
+    {
+      "name": "En. Mohd Nasar Bin Rashid",
+      "position": "Administrative Assistant (N11)",
+      "section": "Perkhidmatan Sokongan (UM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image41.png"
+
+    },
+
+    {
+      "name": "En. Azhar Bin Mod Yunus",
+      "position": "Administrative Assistant (N11)",
+      "section": "Perkhidmatan Sokongan (UM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": ""
+
+    },
+
+    {
+      "name": "Zuraidah Ibrahim",
+      "position": "Administrative Assistant (N22)",
+      "section": "Perkhidmatan Sokongan (PPUM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image21.png"
+
+    },
+
+    {
+      "name": "Cik Mariah Din",
+      "position": "Administrative Assistant (N19)",
+      "section": "Perkhidmatan Sokongan (PPUM)",
+      "url": "",
+      "interests": "",
+      "unit": "Department",
+      "image": "image22.png"
+
+    },
+
+
+
+
+
+
+  {
+      "name": "Assoc. Prof. Reena Rajasuriar",
+      "position": "Research Coordinator",
+      "section": "",
+      "url": "",
+      "interests": "",
+      "unit": "Research",
+      "image": "image23.png"
+
+    },
+
+    {
+      "name": "Dr. Jesinda Pauline Kerishnan",
+      "position": "Postgraduate Coordinator/Research Officer",
+      "section": "",
+      "url": "",
+      "interests": "",
+      "unit": "Research",
+      "image": "image24.png"
+
+    },
+
+    {
+      "name": "Dr. Pushpa Gandi Sangaran",
+      "position": "Research Officer",
+      "section": "",
+      "url": "",
+      "interests": "",
+      "unit": "Research",
+      "image": ""
+
+    },
+
+    {
+      "name": "Dr. Ruhana Che Yusof",
+      "position": "Biostatistician",
+      "section": "",
+      "url": "",
+      "interests": "",
+      "unit": "Research",
+      "image": ""
+
+    },
+
+    {
+      "name": "En. Shareh Zulfadli Shareh Nordin",
+      "position": "Medical Laboratory Technologist (U29)",
+      "section": "",
+      "url": "",
+      "interests": "",
+      "unit": "Research",
+      "image": "image25.png"
+
+    },
+
+
+
+
+
+
 
     {
       "name": "Assoc. Prof. Dr Jeyakantha A/L Ratnasingam",
@@ -67,56 +406,6 @@
       "image": ""
 
     },
-
-
-
-
-    {
-      "name": "Cik Mariah Din",
-      "position": "Consultant",
-      "url": "",
-      "unit": "Department",
-      "image": "image137.png"
-
-    },
-
-    {
-      "name": "Cik Mariah Din",
-      "position": "Consultant",
-      "url": "",
-      "unit": "Department",
-      "image": "image137.png"
-
-    },
-    {
-      "name": "Cik Mariah Din",
-      "position": "Consultant",
-      "url": "",
-      "unit": "Department",
-      "image": "image137.png"
-
-    },
-    {
-      "name": "Cik Mariah Din",
-      "position": "Consultant",
-      "url": "",
-      "unit": "Department",
-      "image": "image137.png"
-
-    },
-
-    {
-      "name": "Cik Mariah Din",
-      "position": "Consultant",
-      "url": "",
-      "unit": "Department",
-      "image": "image137.png"
-
-    },
-
-
-
-
 
 
 

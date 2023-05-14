@@ -20,6 +20,9 @@
             {% if person.interests %}
             <p class="mb-4"><span class="font-semibold">Interests:</span> {{ person.interests }}</p>
             {% endif %}
+            {% if person.section %}
+            <p class="mb-4"><span class="font-semibold">Role:</span> {{ person.section }}</p>
+            {% endif %}
             <span class="inline-flex">
               <a class="text-gray-500">
                 <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="h-5 w-5" viewBox="0 0 24 24">

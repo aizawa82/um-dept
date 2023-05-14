@@ -1,12 +1,61 @@
+---
+layout: "newsattop"
 
-{% include "../src/_includes/partials/nav.njk" %}
-{% include "../src/_includes/partials/newsblock.njk" %}
+title: Department of Medicine
 
-{% include "./_includes/partials/about.njk" %}
+unit: Department
 
-{% include "./_includes/partials/events.njk" %}
+navitems:
+    - label:  Department Staff
+      url:   /staff
+    - label:  Research
+      url:   /research
+    - label:  Education
+      url:   /education
+    - label:  Events
+      url:   /events
 
+linkitems:
+    - label:  Cardiology
+      url:   /units/cardiology
+    - label:  Dermatology
+      url:   /units/dermatology
+    - label:  Endocrinology
+      url:   /units/Endocrinology
+    - label:  Gastroenterology
+      url:   /units/gastroenterology 
+    - label:  Haematology
+      url:   /units/hematology
+    - label:  Infectious Disease
+      url:   /units/infectiousdisease
+    - label:  Medical Admission
+      url:   /units/medicaladmission
+    - label:  Nephrology
+      url:   /units/nephrology
+    - label:  Neurology
+      url:   /units/neurology
+    - label:  Palliative Medicine
+      url:   /units/palliative
+    - label:  Respiratory Medicine
+      url:   /units/respiratory
+    - label:  Rheumatology
+      url:   /units/rheumatology
+---
 
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Welcome to the Department of Medicine
+<figure class="relative float-right">
+  <img alt="HOD" class="hidden md:inline m-4 h-56 w-48 sm:mb-0" src="/static/img/portraits/image17.png"/>
+            <figcaption class=" hidden md:inline px-4 py-4 text-center text-sm font-base"><p>Prof. Dr. Ida Normiha Hilmi<p><p>Head of Department</p></figcaption>
+  </figure>
+The Department of Medicine is the largest Department in the Faculty of Medicine, comprising all the sub-specialties within the field of Internal Medicine. It offers excellent opportunities for both undergraduate and postgraduate training as well as fellowship attachments. It is committed to research and development and subscribes to the vision and mission of the University.
 
-{% include "./_includes/partials/footer.njk" %}
+The Vision of the Department is to become an institution of excellence that provides leadership in the activities of education, training, research, new development, spread, and the provision of service in the domain of general medicine and all the specialties associated with it.
 
+The Department views its mission at the undergraduate level as being charged with the responsibility, via the medical undergraduate instructional program, of preparing the potential graduate to take up duties in the provision of medical care to the community throughout the nation and to be able to operate within the national health care service system effectively and efficiently.
+
+The Department views its mission at the postgraduate level, via its postgraduate medical training program (Masters in Internal Medicine), to produce a physician who may be considered as a professional and a specialist in the domain of General Medicine as well as in a particular chosen specialty within it.
+
+{% endrenderTemplate %}
+</article>
