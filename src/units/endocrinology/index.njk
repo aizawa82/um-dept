@@ -1,38 +1,43 @@
 ---
-layout: default.njk
-head: "Dr Sharifah"
-unit: "Infectious Disease"
-intro: "Here will be some intro text that introduces the unit, infectious disease in this case"
-titleimage: "https://images.unsplash.com/photo-1579781354171-45f67f0d8f18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-services:
-    - EEG
-    - Laboratory
+layout: "triplecolumn"
+
+title: Endocrinology
+
+unit: Endocrinology
+
+navitems:
+    - label:  Introduction
+      url:   /units/endocrinology
+    - label:  Team
+      url:   /units/endocrinology/team
+    - label:  Publications
+      url:   /units/endocrinology/publications
+    - label:  Research
+      url:   /units/endocrinology/research
+
+linkitems:
+    - label:  CERiA
+      url:   https://www.ceria.um.edu.my
+    - label:  UMMC Antibiotic guideline
+      url:   https://farmasi.ummc.edu.my/ummc-on-line-antibiotic-guideline
+
+titleimage: "/static/img/units/id.jpg"
 ---
-{% from 'partials/unitintro.njk' import unitintro %}
-{% from 'partials/unitstaff.njk' import unitstaff %}
-{% from 'partials/unitservices.njk' import unitservices %}
-{% from 'partials/unitpublications.njk' import unitpublications %}
 
-<!-- Introduction -->
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Endocrinology Unit
+<figure class="hidden md:inline float-right">
+  <img alt="HOD" class=" m-0 p-0  w-48 max-auto " src="/static/img/portraits/image29.png"/>
+            <figcaption class=" px-4 py-4 text-center text-sm font-base"><p>Assoc. Prof. Dr Jeyakantha A/L Ratnasingam<p><p>Head of Unit</p></figcaption>
+  </figure>
 
-{{ unitintro(unit, head, intro, titleimage) }}
+Lorem ipsum dolor sit amet consectetur adipisicing elit. In non, aliquid dignissimos perferendis nulla assumenda odit cupiditate velit fugiat voluptatibus ullam, laborum neque numquam animi optio hic explicabo alias quam.
+Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores quo ad quasi quia excepturi cupiditate voluptatum, quam unde dolor neque magnam aut? Aliquid ipsum, velit possimus natus maiores totam nam?
+{% endrenderTemplate %}
+</article>
 
-<!-- Introduction end -->
 
-<!-- Services -->
 
-{{ unitservices(services) }}
 
-<!-- Services end -->
 
-<!-- Staff -->
-
-{{ unitstaff(people, unit) }}
-
-<!-- Staff end -->
-
-<!-- Publications -->
-
-{{ unitpublications(unit, publications) }}
-
-<!-- Publications end -->

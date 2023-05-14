@@ -1,5 +1,76 @@
 {
   "people": [
+
+
+    {
+      "name": "Assoc. Prof. Dr Jeyakantha A/L Ratnasingam",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "Osteoporosis, pituitary, neuroendocrinology",
+      "unit": "Endocrinology",
+      "image": "image29.png"
+
+    },
+
+    {
+      "name": "Prof. Dr. Shireene Ratna A/P D B Vethakkan",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "Osteoporosis, human islet cell transplantation",
+      "unit": "Endocrinology",
+      "image": "image95.png"
+
+    },
+
+    {
+      "name": "Assoc. Prof. Dr. Lim Lee Ling",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "Precision medicine in diabetes, NCD prevention, implementation science, genetic epidemiology, molecular endocrinology and cellular pathways",
+      "unit": "Endocrinology",
+      "image": "image96.png"
+
+    },
+
+    {
+      "name": "Dr. Sharmila Sunita A/P Paramsivam",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "unit": "Endocrinology",
+      "image": "image97.png"
+
+    },
+
+    {
+      "name": "Dr. Lim Quan Hziung",
+      "position": "Lecturer",
+      "url": "",
+      "unit": "Endocrinology",
+      "image": "image98.png"
+
+    },
+
+    {
+      "name": "Dr. Nicholas Hee Ken Yong",
+      "position": "Lecturer",
+      "url": "",
+      "unit": "Endocrinology",
+      "image": ""
+
+    },
+
+    {
+      "name": "Dr. Tharsini A/P Sarvanadan",
+      "position": "Lecturer",
+      "url": "",
+      "unit": "Endocrinology",
+      "image": ""
+
+    },
+
+
+
+
     {
       "name": "Cik Mariah Din",
       "position": "Consultant",
@@ -49,29 +120,33 @@
 
 
 
-
-
-    {
-      "name": "Dr. Lam Chee Loong",
-      "position": "Consultant",
-      "url": "",
-      "unit": "Palliative Care",
-      "image": "image137.png"
-
-    },
     {
       "name": "Dr. Sheriza Izwa Zainuddin",
       "position": "Consultant/Lecturer",
+      "interests": "Renal palliative care, community palliative care, education",
+
       "url": "",
-      "unit": "Palliative Care",
+      "unit": "Palliative Medicine",
       "image": "image39.png"
 
     },
+
+    {
+      "name": "Dr. Lam Chee Loong",
+      "position": "Consultant/Lecturer",
+      "url": "",
+      "interests": "Ethics of palliative care, curriculum, community palliative care, communication skills",
+      "unit": "Palliative Medicine",
+      "image": "image137.png"
+
+    },
+
     {
       "name": "Dr. David Paul Capelle",
       "position": "Specialist",
       "url": "",
-      "unit": "Palliative Care",
+      "interests": "Motor neurone disease, spirituality, augmentative and alternative communication (AAC), electronic health records in community care",
+      "unit": "Palliative Medicine",
       "image": "image138.png"
     },
 

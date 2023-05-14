@@ -1,9 +1,25 @@
 ---
-layout: default.njk
+layout: "triplecolumn"
 head: "Dr Sheriza"
 unit: "Palliative Care"
-intro: "Here will be some intro text that introduces the unit, palliative care in this case"
-titleimage: "https://images.unsplash.com/photo-1445264718234-a623be589d37?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1974&q=80"
+
+navitems:
+    - label:  Overview
+      url:   /units/palliative
+    - label:  Team
+      url:   /units/palliative/team
+    - label:  Publications
+      url:   /units/palliative/publications
+    - label:  Research
+      url:   /units/palliative/research
+
+linkitems:
+    - label:  Malaysian Hospice Council
+      url:   https://www.malaysianhospicecouncil.com/
+
+
+titleimage: "/static/img/units/palliative.jpg"
+
 services:
     - Hospital consults
     - Inpatient palliative care unit
@@ -11,31 +27,27 @@ services:
     - Palliative care in motor neurone disease
     - Palliative care in end stage renal failure
 ---
-{% from 'partials/unitintro.njk' import unitintro %}
-{% from 'partials/unitstaff.njk' import unitstaff %}
-{% from 'partials/unitservices.njk' import unitservices %}
-{% from 'partials/unitpublications.njk' import unitpublications %}
 
-<!-- Introduction -->
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Palliative Medicine Unit
+<figure class="relative float-right">
+  <img alt="HOD" class="hidden md:inline m-4 h-56 w-48 sm:mb-0" src="/static/img/portraits/image39.png"/>
+            <figcaption class=" hidden md:inline px-4 py-4 text-center text-sm font-base"><p>Dr. Sheriza Izwa Zainuddin<p><p>Head of Unit</p></figcaption>
+  </figure>
 
-{{ unitintro(unit, head, intro, titleimage) }}
+The palliative care team at University Malaya Medical Centre provides inpatient and outpatient care to improve the quality of 
+life of patients and their families faced with life-threatening illness.
 
-<!-- Introduction end -->
+>Palliative care is an approach that improves the quality of life of patients and their families facing the problem associated 
+with life-threatening illness, through the prevention and relief of suffering by means of early identification and impeccable assessment 
+and treatment of pain and other problems, physical, psychosocial and spiritual.
+> 
+> **WHO definition**
 
-<!-- Services -->
+Our inpatient palliative care unit serves the needs of patients and their families. Services included specialised physiotherapy, occupational therapy and speech therapy.
+The palliative consult service is available to all specialties within University Malaya Medical Centre.
 
-{{ unitservices(services) }}
-
-<!-- Services end -->
-
-<!-- Staff -->
-
-{{ unitstaff(people, unit) }}
-
-<!-- Staff end -->
-
-<!-- Publications -->
-
-{{ unitpublications(unit, publications) }}
-
-<!-- Publications end -->
+Our outpatient clinic runs on Wednesday afternoons and covers the outpatient needs of patients already under our follow-up as well as new referrals.
+{% endrenderTemplate %}
+</article>

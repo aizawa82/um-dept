@@ -1,0 +1,28 @@
+---
+layout: "sidebar"
+
+title: Palliative Medicine Team
+
+unit: Palliative Medicine
+
+navitems:
+    - label:  Overview
+      url:   /units/palliative
+    - label:  Team
+      url:   /units/palliative/team
+    - label:  Publications
+      url:   /units/palliative/publications
+    - label:  Research
+      url:   /units/palliative/research
+
+
+
+titleimage: "/static/img/units/palliative.jpg"
+
+---
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+
