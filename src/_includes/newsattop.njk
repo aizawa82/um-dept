@@ -1,6 +1,7 @@
 ---
 layout: "default"
 ---
+ana674
 
 {% include "../_includes/partials/newsblock.njk" %}
 
@@ -11,7 +12,7 @@ layout: "default"
     <div class="bg-gray-100 p-2">
       <ul>
         {% for item in navitems %}
-        <li class="p-2 underline decoration-{{ settings.accentcolor }} decoration-2 underline-offset-4"><a href="{{ item.url }}">{{ item.label }}</a></li>
+        <li class="p-2 underline decoration-{{ settings.accentcolor }} decoration-2"><a class="no-underline" href="{{ item.url }}">{{ item.label }}</a></li>
         {% endfor %}
       </ul>
     </div>
