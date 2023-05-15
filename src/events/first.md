@@ -1,6 +1,6 @@
 ---
 title: Critical appraisal course
-date: 2016-01-01
+date: 2016-01-07
 details: Here is asomething coming  up.
 category: CME
 ---
