@@ -6,8 +6,15 @@ module.exports = {
     },
     extend: {
       colors: {},
+
+      fontFamily:{
+        'sans': ['Fira Sans']
+      }
+
     },
   },
   variants: {},
   plugins: [require("@tailwindcss/typography")],
 };
+
+

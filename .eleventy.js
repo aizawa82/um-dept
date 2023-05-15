@@ -18,6 +18,16 @@ module.exports = function (eleventyConfig) {
     );
   });
 
+  eleventyConfig.addFilter("monthString", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
+      "MMMM"
+    );
+  });
+
+  eleventyConfig.addFilter("dayOfMonthNumber", (dateObj) => {
+    return DateTime.fromJSDate(dateObj, { zone: "utc" }).day;
+  });
+
   // Syntax Highlighting for Code blocks
   eleventyConfig.addPlugin(syntaxHighlight);
 
