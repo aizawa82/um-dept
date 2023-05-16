@@ -18,12 +18,16 @@
             <h2 class="tracking-widest text-xs title-font font-medium text-yellow-500 mb-1">{{ event.data.category }}</h2>
             <h1 class="title-font text-xl font-medium text-gray-900 mb-3">{{ event.data.title }}</h1>
             <p class="leading-relaxed mb-5">{{ event.data.details }}</p>
+           {% if event.data.author %}
+           
             <a class="inline-flex items-center">
               <img alt="blog" src="https://dummyimage.com/102x102" class="w-8 h-8 rounded-full flex-shrink-0 object-cover object-center">
               <span class="flex-grow flex flex-col pl-3">
-                <span class="title-font font-medium text-gray-900">Holden Caulfield</span>
+                <span class="title-font font-medium text-gray-900">{{ event.data.author }}</span>
               </span>
             </a>
+
+          {% endif %}
           </div>
         </div>
       </div>

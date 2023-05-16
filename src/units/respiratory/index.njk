@@ -1,38 +1,38 @@
 ---
-layout: default.njk
-head: "Dr Sharifah"
-unit: "Pulmonology"
-intro: "Here will be some intro text that introduces the unit, infectious disease in this case"
-titleimage: "/static/img/units/chest.jpg"
-services:
-    - EEG
-    - Laboratory
+layout: "triplecolumn"
+
+title: Respiratory Medicine
+
+unit: Respiratory Medicine
+
+navitems:
+    - label:  Introduction
+      url:   /units/respiratory
+    - label:  Team
+      url:   /units/respiratory/team
+    - label:  Publications
+      url:   /units/respiratory/publications
+    - label:  Research
+      url:   /units/respiratory/research
+
+linkitems:
+
+
+titleimage: "/static/img/units/id.jpg"
 ---
-{% from 'partials/unitintro.njk' import unitintro %}
-{% from 'partials/unitstaff.njk' import unitstaff %}
-{% from 'partials/unitservices.njk' import unitservices %}
-{% from 'partials/unitpublications.njk' import unitpublications %}
 
-<!-- Introduction -->
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Respiratory Medicine Unit
+<figure class="hidden md:inline float-right">
+  <img alt="HOD" class=" m-0 p-0  w-48 max-auto " src="/static/img/portraits/image30.png"/>
+            <figcaption class=" px-4 py-4 text-center text-sm font-base"><p>Dr. Wong Chee Kuan<p><p>Head of Unit</p></figcaption>
+  </figure>
+The Respiratory unit is one of the subspecialized units within the Department of Medicine. 
+It provides various services, training, and research in the field of respiratory medicine.
 
-{{ unitintro(unit, head, intro, titleimage) }}
+{% endrenderTemplate %}
+</article>
 
-<!-- Introduction end -->
 
-<!-- Services -->
 
-{{ unitservices(services) }}
-
-<!-- Services end -->
-
-<!-- Staff -->
-
-{{ unitstaff(people, unit) }}
-
-<!-- Staff end -->
-
-<!-- Publications -->
-
-{{ unitpublications(unit, publications) }}
-
-<!-- Publications end -->

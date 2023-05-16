@@ -1,0 +1,26 @@
+---
+layout: "sidebar"
+
+title: Respiratory Medicine Team
+
+unit: Respiratory Medicine
+
+navitems:
+    - label:  Introduction
+      url:   /units/respiratory
+    - label:  Team
+      url:   /units/respiratory/team
+    - label:  Publications
+      url:   /units/respiratory/publications
+    - label:  Research
+      url:   /units/respiratory/research
+
+
+titleimage: "/static/img/units/id.jpg"
+---
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+

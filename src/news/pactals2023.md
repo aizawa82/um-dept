@@ -2,10 +2,7 @@
 title: "PACTALS 2023"
 intro: "Meeting of the Pan-Asian Consortium for Treatment and Research in ALS"
 image: "/static/img/news/pactals2023.png"
+layout: "poster"
 ---
 
-# Here is a title
-
-let us see if it works
-
-![alt texsdsdt]({{ image }})
+## PACTALS 2023

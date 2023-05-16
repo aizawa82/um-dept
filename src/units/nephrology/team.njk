@@ -1,0 +1,27 @@
+---
+layout: "sidebar"
+
+
+title: Nephrology
+
+unit: Nephrology
+
+navitems:
+    - label:  Introduction
+      url:   /units/nephrology
+    - label:  Team
+      url:   /units/nephrology/team
+    - label:  Publications
+      url:   /units/nephrology/publications
+    - label:  Research
+      url:   /units/nephrology/research
+
+
+titleimage: "/static/img/units/id.jpg"
+---
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+

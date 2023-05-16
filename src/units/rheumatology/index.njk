@@ -1,38 +1,42 @@
 ---
-layout: default.njk
-head: "Dr Sharifah"
-unit: "Infectious Disease"
-intro: "Here will be some intro text that introduces the unit, infectious disease in this case"
-titleimage: "https://images.unsplash.com/photo-1579781354171-45f67f0d8f18?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80"
-services:
-    - EEG
-    - Laboratory
+layout: "triplecolumn"
+
+title: Rheumatolgy
+
+unit: Rheumatolgy
+
+navitems:
+    - label:  Introduction
+      url:   /units/rheumatology
+    - label:  Team
+      url:   /units/rheumatology/team
+    - label:  Publications
+      url:   /units/rheumatology/publications
+    - label:  Research
+      url:   /units/rheumatology/research
+
+linkitems:
+
+
+titleimage: "/static/img/units/id.jpg"
 ---
-{% from 'partials/unitintro.njk' import unitintro %}
-{% from 'partials/unitstaff.njk' import unitstaff %}
-{% from 'partials/unitservices.njk' import unitservices %}
-{% from 'partials/unitpublications.njk' import unitpublications %}
 
-<!-- Introduction -->
+<article class="prose lg:prose-md">
+{% renderTemplate "md" %}
+# Rheumatology Unit
+<figure class="hidden md:inline float-right">
+  <img alt="HOD" class=" m-0 p-0  w-48 max-auto " src="/static/img/portraits/image31.png"/>
+            <figcaption class=" px-4 py-4 text-center text-sm font-base"><p>Prof. Dr. Sargunan Sockalingam<p><p>Head of Unit</p></figcaption>
+  </figure>
+The Rheumatology Unit in University­ Malaya Medical Centre has been in existence since 1990. It started out as a unit that 
+was staffed by trainees and consultants in other fields of medicine, such as Nephrology, Haematology and Geriatric Medicine, due to its wide ranging nature.
 
-{{ unitintro(unit, head, intro, titleimage) }}
 
-<!-- Introduction end -->
+Over the years, and especially after 2007, the unit has firmly rooted itself as a centre for Rheumatology Clinical Services catering to the population in Klang Valley and surrounding areas. 
+The unit's primary focus apart from clinical service is teaching and it is now an established training centre for Rheumatology fellows from Malaysia and worldwide. 
+The unit is an active participant in all the major Rheumatology conferences around the world and its doctors take part in both national and international speaking engagements for universities and corporate bodies. 
+{% endrenderTemplate %}
+</article>
 
-<!-- Services -->
 
-{{ unitservices(services) }}
 
-<!-- Services end -->
-
-<!-- Staff -->
-
-{{ unitstaff(people, unit) }}
-
-<!-- Staff end -->
-
-<!-- Publications -->
-
-{{ unitpublications(unit, publications) }}
-
-<!-- Publications end -->

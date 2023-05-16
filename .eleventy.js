@@ -20,7 +20,7 @@ module.exports = function (eleventyConfig) {
 
   eleventyConfig.addFilter("monthString", (dateObj) => {
     return DateTime.fromJSDate(dateObj, { zone: "utc" }).toFormat(
-      "MMMM"
+      "MMM"
     );
   });
 

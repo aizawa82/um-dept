@@ -1,0 +1,28 @@
+---
+layout: "sidebar"
+
+
+title: Neurology
+
+unit: Neurology
+
+navitems:
+    - label:  Introduction
+      url:   /units/neurology
+    - label:  Team
+      url:   /units/neurology/team
+    - label:  Publications
+      url:   /units/neurology/publications
+    - label:  Research
+      url:   /units/neurology/research
+
+linkitems:
+
+titleimage: "/static/img/units/id.jpg"
+---
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+
