@@ -19,85 +19,6 @@ navitems:
 linkitems:
 
 
-
-team:
-    - name: Assoc. Prof. Dr. Kwan Zhenli
-      position: Consultant/Lecturer
-      sketch:  > 
-          Assoc Prof Kwan is a consultant dermatologist and Mohs micrographic surgeon at
-          the University of Malaya Medical Centre (UMMC) and UM Specialist Centre.
-          After qualifying with an MBBS from the University of Malaya in 2008, she was
-          awarded the MRCP (UK) in 2010 and graduated with the Advanced Master in
-          Dermatology from Universiti Kebangsaan Malaysia in 2016. She also obtained the
-          Specialty Certificate in Dermatology from the Royal Colleges of Physicians in the
-          same year. Assoc Prof Kwan then pursued fellowship training at the prestigious St.
-          John’s Institute of Dermatology, United Kingdom and was awarded a Fellowship
-          in Mohs and Advanced Dermatological Surgery in 2022. She heads the Division of
-          Dermatology in UMMC and spearheads the Mohs micrographic surgery service for
-          the treatment of skin cancers. Her other interests include psoriasis and the use of
-          technology in Dermatology. Her Instagram handle is @drzhenli.
-
-      image: image33.png
-      umexpert: "https://umexpert.um.edu.my/zhenli"
-    - name: Dr. Yong Shin Shen
-      position: Consultant/Lecturer
-      sketch:  > 
-          Dr Yong is a consultant dermatologist who practices in the University of Malaya
-          Medical Centre (UMMC) and UM Specialist Centre. His specialist interests
-          include hair and nails as well as cutaneous lymphomas. He graduated from the
-          National University of Ireland in 2010. He then obtained his postgraduate
-          qualifications in Internal Medicine in 2014 when he was awarded the MRCPI. Dr
-          Yong completed Dermatology training in 2020, obtaining the Advanced Master in
-          Dermatology from Universiti Kebangsaan Malaysia as well as the Specialty
-          Certificate in Dermatology from the Royal Colleges of Physicians. He is the
-          clinical lead for the laser unit in UMMC and is also a member of the development
-          group for the upcoming second edition of the CPG on psoriasis.
-      image: image113.png
-      umexpert: "https://umexpert.um.edu.my/shinshen"
-    - name: Dr Nik Aimee Azizah Faheem
-      position: Specialist/Lecturer
-      sketch:  > 
-          Dr Nik Aimee is a dermatologist and general physician at the University of Malaya
-          Medical Centre (UMMC). She graduated with honours from the National
-          University of Ireland, Galway in 2010 and obtained her MRCP (UK) in 2017. She
-          completed her subspecialty training in Dermatology, obtaining the Advanced
-          Master in Dermatology from Universiti Kebangsaan Malaysia in 2022. Dr Aimee
-          has an interest in laser medicine.
-      image: image115.png
-    - name: Dr Han Winn Hui
-      position: Specialist/Lecturer
-      sketch:  > 
-          Dr Han is a clinical specialist and general physician at the University of Malaya
-          Medical Centre (UMMC). She graduated from the University of Edinburgh with
-          MBChB in 2008 and subsequently completed the MRCPI in 2014. She has
-          extensive experience in Internal Medicine in various major hospitals in Malaysia.
-          Besides having a passion for medical education, Dr Han also has interests in
-          medical dermatology and laser medicine. She is also involved in various clinical
-          trials and has published many papers in peer-reviewed journals.
-      image: image114.png
-    - name: Dr Richard Barlow
-      position: Consultant
-      sketch:  >    
-          Dr Barlow is a senior consultant dermatologist and dermatological surgeon. He
-          qualified with MBBCh from the University of Witwatersrand before performing
-          his postgraduate general medical training at Hammersmith Hospital and the Royal
-          Postgraduate Medical School in London. He has been awarded an MD in physical
-          urticarias from the University of London and completed general dermatology
-          training at St John’s Institute of Dermatology in London. Dr Barlow spent a year as
-          Fellow in Advanced Dermatologic and Mohs Surgery in Portland, Oregon and has
-          been a consultant at St John’s Institute of Dermatology since 1996. He was
-          awarded the FRCP UK in 2001. His clinical and research interests include skin
-          cancer management (including Mohs micrographic surgery), cutaneous laser
-          surgery and cosmetic dermatology. Dr Barlow was the founding President of the
-          British Cosmetic Dermatology Group and the President of the St John’s
-          Dermatology Society (2009/10).
-
-
-
-
-
-
-
 titleimage: "/static/img/units/id.jpg"
 ---
 
@@ -183,8 +104,8 @@ Dermatological Society of Malaysia and the Academy of Medicine Malaysia.
 {% endrenderTemplate %}
 </article>
 
-{% from 'partials/unitbios.njk' import unitbios %}
+{% from 'partials/unitstaff.njk' import unitstaff %}
 
 
-{{ unitbios(team) }}
+{{ unitstaff(people, unit) }}
 
