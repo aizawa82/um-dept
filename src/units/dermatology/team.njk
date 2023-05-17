@@ -1,0 +1,29 @@
+---
+layout: "sidebar"
+
+
+title: Dermatology
+
+unit: Dermatology
+
+navitems:
+    - label:  Introduction
+      url:   /units/dermatology
+    - label:  Team
+      url:   /units/dermatology/team
+    - label:  Publications
+      url:   /units/dermatology/publications
+    - label:  Research
+      url:   /units/dermatology/research
+
+linkitems:
+
+
+titleimage: "/static/img/units/id.jpg"
+---
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+
