@@ -1,7 +1,8 @@
 ---
 layout: "default"
 ---
-{% from 'partials/unitservices.njk' import unitservices %}
+
+
 
 
 <div class="grid grid-cols-1 md:grid-cols-4 gap-12 p-8">
@@ -36,10 +37,7 @@ layout: "default"
     {% endif %}
   </div>
 
-{% if services %}
-{{ unitservices(unit, services) }}
 
-{% endif %}
 
 
 
