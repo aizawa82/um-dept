@@ -4,7 +4,7 @@ intro: "Exam preparation course for MMed/MRCP"
 image: "/static/img/news/masterclass.jpg"
 layout: "poster"
 details: "Get ready for MRCP"
-registration: "mailto:email@example.com"
+registration: "mailto:medicupdates@um.edu.my"
 ---
 ## UM Masterclass in Medicine
 

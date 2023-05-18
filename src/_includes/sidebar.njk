@@ -4,14 +4,18 @@ layout: "default"
 
 {% if titleimage %}
 
-<div class="w-full bg-center bg-cover" style="background-image: url({{ titleimage }})">
-<div class="flex items-center justify-center w-full h-full bg-gray-900 bg-opacity-50 py-12">
-  <div class="text-center">
+{# <div class="w-full bg-center bg-cover" style="background-image: url({{ titleimage }})"> #}
+  <div class="max-w-full mx-auto">
+
+  <div style="background-image: url({{ titleimage }});" class="w-full bg-center bg-cover h-64" >
+
+
+<div class="flex items-center justify-start w-full h-full backdrop-filter backdrop-grayscale py-12">
+  <div class="text-center ">
     <div class="container px-4 mx-auto">
-      <div class="max-w-4xl mx-auto text-center">
-        <h2 class="mt-8 mb-6 text-4xl lg:text-5xl font-bold text-gray-100">{{ unit }}</h2>
+      <div class="max-w-4xl ">
+        <h2 class="mt-8 mb-6 text-4xl md:text-7xl font-bold text-right leading-9 text-gray-100"><span class="highlighter">{{ unit }}</span></h2>
       </div>
-    </div>
   </div>
 </div>
 </div>
@@ -24,7 +28,7 @@ layout: "default"
     <div class="bg-gray-200 p-2">
       <ul>
         {% for item in navitems %}
-        <li class="p-2"><a href="{{ item.url }}">{{ item.label }}</a></li>
+        <li class="p-2 underline decoration-{{ settings.accentcolor }} decoration-2 underline-offset-4"><a class="decoration-transparent" href="{{ item.url }}">{{ item.label }}</a></li>
         {% endfor %}
       </ul>
     </div>
