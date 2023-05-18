@@ -3,6 +3,37 @@
 @tailwind components;
 @tailwind utilities;
 
+
+@layer utilities {
+
+  /* .highlighter {
+    position: relative;
+  }
+
+  .highlighter::before {
+    content: '';
+    position: absolute;
+    display: inline-block;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 1.3em;
+    transform: translate(-0.5rem, -0.5rem);
+    background-color: #eab308;
+    z-index: -1;
+  } */
+  .highlighter {
+    display: inline;
+    padding: .02em 0;
+    background: #FFC107;
+    color: #ffffff;
+    box-shadow: .5em 0 0 #FFC107, -.5em 0 0 #FFC107;
+    z-index: -2;
+  }
+
+
+}
+
 /*Your Custom CSS Goes here*/
 
 
