@@ -1,0 +1,27 @@
+---
+layout: "sidebar"
+
+title: Medical Admission
+
+unit: Medical Admission
+
+navitems:
+    - label:  Introduction
+      url:   /units/medicaladmission
+    - label:  Team
+      url:   /units/medicaladmission/team
+    - label:  Publications
+      url:   /units/medicaladmission/publications
+
+linkitems:
+
+
+titleimage: "/static/img/units/id.jpg"
+---
+
+
+{% from 'partials/unitstaff.njk' import unitstaff %}
+
+
+{{ unitstaff(people, unit) }}
+
