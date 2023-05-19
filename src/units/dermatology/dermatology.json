@@ -1,0 +1,44 @@
+
+{
+  "navitems": [
+    {
+      "label": "Introduction",
+      "url": "/units/dermatology"
+    },
+    {
+      "label": "Team",
+      "url": "/units/dermatology/team"
+    },
+    {
+      "label": "Publications",
+      "url": "/units/dermatology/publications"
+    },
+    {
+      "label": "Research",
+      "url": "/units/dermatology/research"
+    },
+    {
+      "label": "Services",
+      "url": "index.html#services"
+    }
+  ],
+  "linkitems": null,
+  "services": [
+    "General Dermatology",
+    "Cryotherapy",
+    "Intralesional injections",
+    "Application of trichloroacetic acid",
+    "Application of podophyllin",
+    "Patch tests",
+    "Phototherapy",
+    "Laser services",
+    "Picosecond laser",
+    "Carbon dioxide laser",
+    "Dermatological surgery",
+    "Skin biopsy",
+    "Curettage and cautery",
+    "Mohs micrographic surgery",
+    "Nail biopsy"
+  ],
+  "titleimage": "/static/img/units/dermmicro.jpg"
+}

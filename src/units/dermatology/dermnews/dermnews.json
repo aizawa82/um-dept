@@ -1,6 +1,7 @@
 {
 
-    "layout": "default",
-    "tags": "dermnews"
+    "layout": "sidebar",
+    "tags": "dermnews",
+    "unit": "Dermatology"
 
 }

@@ -10,4 +10,4 @@ layout: "poster"
 
 Learn from experts about the challenges in managing EB in developing countries.
 
-<a href="https://docs.google.com/forms/d/e/1FAIpQLSfThZ2AJDy1X4FNhCla0SCsEdw8tFMv46djbA8pealGAP5RJQ/viewform" target="_blank">Learn Markdown!</a>
+<a href="https://docs.google.com/forms/d/e/1FAIpQLSfThZ2AJDy1X4FNhCla0SCsEdw8tFMv46djbA8pealGAP5RJQ/viewform" target="_blank">Register</a>

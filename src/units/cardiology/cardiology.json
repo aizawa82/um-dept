@@ -1,0 +1,18 @@
+{
+  "navitems": [
+    {
+      "label": "Introduction",
+      "url": "/units/cardiology"
+    },
+    {
+      "label": "Team",
+      "url": "/units/cardiology/team"
+    },
+    {
+      "label": "Publications",
+      "url": "/units/cardiology/publications"
+    }
+  ],
+  "linkitems": null,
+  "titleimage": "/static/img/units/heart.jpg"
+}
