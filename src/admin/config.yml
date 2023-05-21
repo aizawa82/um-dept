@@ -31,6 +31,10 @@ collections:
                 - {label: URL, name: url, widget: string}
                 - {label: Unit, name: unit, widget: string}
                 - {label: Position, name: position, widget: string}
+                - {label: "UM Expert", name: umexpert, widget: string}
+                - {label: Twitter, name: twitter, widget: string}
+                - {label: "E-Mail", name: email, widget: string}
+
 
 
 
@@ -68,6 +72,9 @@ collections:
       - { label: "Details", name: "details", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Image filename", name: "image", widget: "string" }
+      - { label: "Publish Date", name: "publishdate", widget: "datetime" }
+      - { label: "Event Date", name: "eventdate", widget: "datetime" }
+
 
 
   - label: "Events"
