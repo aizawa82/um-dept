@@ -1,6 +1,6 @@
 ---
 title: "Skinbreathe"
-image: "/static/img/news/skinbreathe.png"
+image: "skinbreathe.png"
 registration: 
 intro: "Learn more about Skinbreathe"
 layout: "poster"

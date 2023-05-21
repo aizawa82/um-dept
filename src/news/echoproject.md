@@ -1,7 +1,7 @@
 ---
 title: "ECHO Project: Moving knowledge, not people"
 intro: "Showcasing Malaysian ECHO project implementations"
-image: "/static/img/news/echoproject.jpg"
+image: "echoproject.jpg"
 registration: "https://zoom.us/j/97158444950"
 layout: "poster"
 ---
