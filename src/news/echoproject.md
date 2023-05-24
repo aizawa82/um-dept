@@ -1,7 +1,8 @@
 ---
-title: "Breakfast@UMHealth"
-intro: "By the departments of medicine and oncology"
-image: "/static/img/news/umhealthbreakfast20230524.jpg"
+title: "ECHO Project: Moving knowledge, not people"
+intro: "Showcasing Malaysian ECHO project implementations"
+image: "echoproject.jpg"
+category: CME
 registration: "https://zoom.us/j/97158444950"
 layout: "poster"
 ---

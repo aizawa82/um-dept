@@ -12,25 +12,29 @@ public_folder: "/static/img"
 local_backend: true
 # publish_mode: editorial_workflow
 collections:
-  - name: "data"
-    label: "Data"
-    format: json
-    preview: true
-    create: true
+  - label: "Lists"
+    name: "data"
     files:
-      - label: "people"
-        name: "people"
+      - label: Staff
+        name: people
         file: "src/_data/people.json"
-        fields:
-          - label: People
-            name: people
-            widget: list
-            collapsed: false
-            fields:
-              - {label: Name, name: name, widget: string}
-              - {label: URL, name: url, widget: string}
-              - {label: Unit, name: unit, widget: string}
-              - {label: Position, name: position, widget: string}
+        format: json
+        preview: true
+        create: true
+        fields: 
+            - label: "People"
+              name: "people"
+              widget: list
+              collapsed: false
+              fields:
+                - {label: Name, name: name, widget: string}
+                - {label: URL, name: url, widget: string}
+                - {label: Unit, name: unit, widget: string}
+                - {label: Position, name: position, widget: string}
+                - {label: "UM Expert", name: umexpert, widget: string}
+                - {label: Twitter, name: twitter, widget: string}
+                - {label: "E-Mail", name: email, widget: string}
+
 
 
 
@@ -59,10 +63,19 @@ collections:
     name: "news"
     folder: "src/news"
     create: true
+    format: frontmatter
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Introduction", name: "intro", widget: "string" }
+      - { label: "Format (poster/default)", name: "layout", widget: "string" }
+      - { label: "Resistration (email/url)", name: "registration", widget: "string" }
+      - { label: "Details", name: "details", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
+      - { label: "Image filename", name: "image", widget: "string" }
+      - { label: "Publish Date", name: "publishdate", widget: "datetime" }
+      - { label: "Event Date", name: "eventdate", widget: "datetime" }
+
+
 
   - label: "Events"
     name: "events"

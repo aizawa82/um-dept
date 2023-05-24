@@ -1,7 +1,7 @@
 ---
 title: "Epidermolysis bullosa in Malaysia and Mexico"
 intro: "Workshop"
-image: "/static/img/news/eblectureprogram.jpg"
+image: "eblectureprogram.jpg"
 layout: "poster"
 ---
 
