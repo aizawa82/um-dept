@@ -1,19 +1,23 @@
 ---
 layout: "dermtriplecolumn"
 
+hod:
+  name: "Assoc. Prof. Dr. Kwan Zhenli"
+  image: image33.png
+
 title: Dermatology
 
 unit: Dermatology
 
 unitnews: dermnews
 ---
+{% from 'partials/portrait.njk' import portrait %}
 
 <article class="prose lg:prose-md">
-{% renderTemplate "md" %}
-<figure class="hidden md:inline float-right ml-6">
-  <img alt="HOD" class=" m-0 p-0  w-48 max-auto " src="/static/img/portraits/image33.png"/>
-            <figcaption class=" px-4 py-4 text-center text-sm font-base"><p>Assoc. Prof. Dr. Kwan Zhenli<p><p>Head of Unit</p></figcaption>
-  </figure>
+  {{ portrait(hod, hodimage) }}
+
+  {% renderTemplate "md, njk",
+  hod %}
 The Division of Dermatology of the University Malaya Medical Centre (UMMC)
 provides services to cater for patients suffering from skin disorders. This includes
 skin consultations and procedures given to ward inpatients and outpatients. The
@@ -42,7 +46,3 @@ the faculty.
 
 {% endrenderTemplate %}
 </article>
-
-
-
-

@@ -1,0 +1,16 @@
+{% macro portrait(hod, hodimage) %}
+
+    <div class="float-right flex flex-col p-4  not-prose hidden md:inline">
+        <figure class="grow bg-gray-200">
+            <img alt="HOD" class="object-cover h-56  pt-5 object-bottom sm:mb-0" src="/static/img/portraits/{{hod.image}}"/>
+        </figure>
+        <div class="grow bg-gray-500 p-0 ">
+            <div class="p-5 text-white font-light">
+                <p>{{hod.name}}
+                    <p>
+                        <p>Head of Unit</p>
+             </div>
+        </div>
+    </div>
+
+ {% endmacro %}
