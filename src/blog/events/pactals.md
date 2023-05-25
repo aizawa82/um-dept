@@ -1,7 +1,7 @@
 ---
 title: PACTALS Meeting
 date: 2023-09-12
-details: Royal Chulane, KL
+details: Royale Chulan, KL
 category: Conference
 ---
 
