@@ -21,14 +21,16 @@
 
 <body>
 
-<header class="body-font text-gray-600  z-[9999]">
+<header class="body-font text-gray-600  bg-[{{settings.umblue}}] z-[9999]">
  
-<div class="w-full text-gray-70 ">
+<div class="w-full text-white p-0 m-0">
   <div x-data="{ open: false }" class="flex  flex-col max-w-screen-xl px-4 mx-auto md:items-center md:justify-between md:flex-row md:px-6 lg:px-8">
    <div class="flex flex-col">
-    <a class="title-font  flex items-center font-medium text-gray-900 " href="/">
-      <img class="p-4 " src = "/static/img/logo.svg" alt="Universiti Malaya"/>
-    </a>
+    <div class="flex flex-row items-center align-middle my-0  space-x-10">
+    <a class="title-font   font-medium text-gray-900 " href="/">
+      <img class="p-0 m-0 w-32 " src = "/static/img/whiteumlogo.png" alt="Universiti Malaya"/>
+    </a><div class="flex flex-col"><p class="font-light text-xl">Department of</p><p class="font-light text-xl md:font-black md:text-5xl">Medicine</p></div></div>
+
     <div class="p-4 flex flex-row items-center justify-between bg-[{{ accentcolor }}]">
       <button class="md:hidden focus:outline-none focus:shadow-outline mx-auto" @click="open = !open">
         {# <svg fill="currentColor" viewBox="0 0 20 20" class="w-6 h-6">
@@ -50,7 +52,7 @@
           <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </button>
         <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="z-[100] absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
-          <div class="px-2 py-2 bg-white shadow dark-mode:bg-gray-800">
+          <div class="px-2 py-2 bg-[{{settings.umblue}}] shadow dark-mode:bg-gray-800">
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent     md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/education/mbbs">Bachelor of Medicine, Bachelor of Surgery</a>
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent     md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/education/mintmed">Master of Internal Medicine</a>
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent     md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/education/mmedsc">Master of Medical Science</a>    
@@ -64,7 +66,7 @@
           <svg fill="currentColor" viewBox="0 0 20 20" :class="{'rotate-180': open, 'rotate-0': !open}" class="inline w-4 h-4 mt-1 ml-1 transition-transform duration-200 transform md:-mt-1"><path fill-rule="evenodd" d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z" clip-rule="evenodd"></path></svg>
         </button>
         <div x-show="open" x-transition:enter="transition ease-out duration-100" x-transition:enter-start="transform opacity-0 scale-95" x-transition:enter-end="transform opacity-100 scale-100" x-transition:leave="transition ease-in duration-75" x-transition:leave-start="transform opacity-100 scale-100" x-transition:leave-end="transform opacity-0 scale-95" class="z-[100] absolute right-0 w-full mt-2 origin-top-right rounded-md shadow-lg md:w-48">
-          <div class="px-2 py-2 bg-white shadow dark-mode:bg-gray-800">
+          <div class="px-2 py-2 bg-[{{settings.umblue}}] shadow dark-mode:bg-gray-800">
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent     md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/units/cardiology">Cardiology</a>
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent     md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/units/dermatology">Dermatology</a>
             <a class="block px-4 py-2 mt-2 text-sm font-semibold bg-transparent     md:mt-0 hover:text-gray-900 focus:text-gray-900 hover:bg-gray-200 focus:bg-gray-200 focus:outline-none focus:shadow-outline" href="/units/endocrinology">Endocrinology</a>
