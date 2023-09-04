@@ -3,7 +3,7 @@ title: UM Masterclass in Medicine 2023
 intro: "Exam preparation course for MMed/MRCP"
 image: "masterclass.jpg"
 category: "Workshop"
-layout: "poster"
+layout: "announcement"
 details: "Get ready for MRCP"
 registration: "mailto:medicupdates@um.edu.my"
 ---
