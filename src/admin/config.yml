@@ -71,7 +71,9 @@ collections:
       - { label: "Resistration (email/url)", name: "registration", widget: "string" }
       - { label: "Details", name: "details", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Image filename", name: "image", widget: "string" }
+   #   - { label: "Image filename", name: "image", widget: "string" }
+      - { label: "Image filename", name: "image", widget: "image", choose_url: false }
+
       - { label: "Publish Date", name: "publishdate", widget: "datetime" }
       - { label: "Event Date", name: "eventdate", widget: "datetime" }
 
