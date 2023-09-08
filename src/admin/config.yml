@@ -67,7 +67,7 @@ collections:
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Introduction", name: "intro", widget: "string" }
-      - { label: "Format (poster/default)", name: "layout", widget: "string" }
+  #    - { label: "Format (poster/default)", name: "layout", widget: "string" }
       - { label: "Resistration (email/url)", name: "registration", widget: "string" }
       - { label: "Details", name: "details", widget: "string" }
       - { label: "Body", name: "body", widget: "markdown" }
