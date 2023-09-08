@@ -1,7 +1,7 @@
 ---
 title: UM HIV/STI Updates 2023
 intro: ""
-image: "hivsti.png"
+image: "/static/img/hivsti.png"
 category: "Workshop"
 layout: "announcement"
 details: ""

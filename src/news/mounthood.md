@@ -1,7 +1,7 @@
 ---
 title: "Mt Hood Asia 2023 Diabetes Challenge & Society for Medical Decision Making Asia Conference"
 intro: "The next Mount Hood challenge meeting will be hosted by the Department of Medicine, University of Malaya. It will take place 4th and 5th of December in conjunction with Society for Medical Decision Making meeting at Connexion Conference & Event Center in Kuala Lumpur, Malaysia."
-image: "mthood.png"
+image: "/static/img/mthood.png"
 category: CME
 registration: "https://www.mthooddiabeteschallenge.com/conference"
 ---
