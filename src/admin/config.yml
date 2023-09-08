@@ -79,16 +79,16 @@ collections:
 
 
 
-  - label: "Events"
-    name: "events"
-    folder: "src/events"
-    create: true
-    fields:
-      - { label: "Title", name: "title", widget: "string" }
-      - { label: "Date", name: "date", widget: "string" }
-      - { label: "Details", name: "details", widget: "string" }
-      - { label: "Category", name: "category", widget: "string" }
-      - { label: "Body", name: "body", widget: "markdown" }
+  # - label: "Events"
+  #   name: "events"
+  #   folder: "src/events"
+  #   create: true
+  #   fields:
+  #     - { label: "Title", name: "title", widget: "string" }
+  #     - { label: "Date", name: "date", widget: "string" }
+  #     - { label: "Details", name: "details", widget: "string" }
+  #     - { label: "Category", name: "category", widget: "string" }
+  #     - { label: "Body", name: "body", widget: "markdown" }
 
   
   # - label: "Settings"
